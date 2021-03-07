@@ -1,0 +1,14 @@
+@inproceedings{Wicke2006VersatileVM,
+author = {Wicke, Martin and Hatt, Philipp and Pauly, Mark and M\"{u}ller, Matthias and Gross, Markus},
+title = {Versatile Virtual Materials Using Implicit Connectivity},
+year = {2006},
+isbn = {3905673320},
+publisher = {Eurographics Association},
+address = {Goslar, DEU},
+abstract = {We propose a new method for strain computation in mesh-free simulations. Without storing connectivity information, we compute strain using local rest states that are implicitly defined by the current system configuration. Particles in the simulation are subject to restoring forces arranging them in a locally defined lattice. The orientation of the lattice is found using local shape matching techniques. The strain state of each particle can then be computed by comparing the actual positions of the neighboring particles to their assigned lattice positions. All necessary information needed to compute strains is contained in the current state of the simulation, no rest state or connectivity information is stored. Since no time integration is used to compute the strain state, errors cannot accumulate, and the method is well-suited for stiff materials.In order to simulate phase transitions, the strain computation can be integrated into an existing particle-based fluid simulation framework. Implementing phase transitions between liquid and solid states becomes simple and elegant, since no transfer of material between different representations is needed. Using the current neighborhood relationships, the model provides penalty-based inter-object and self-collision handling at no additional computational cost.},
+booktitle = {Proceedings of the 3rd Eurographics / IEEE VGTC Conference on Point-Based Graphics},
+pages = {137–144},
+numpages = {8},
+location = {Boston, Massachusetts},
+series = {SPBG'06}
+}
